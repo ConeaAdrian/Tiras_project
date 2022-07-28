@@ -1,0 +1,271 @@
+.tiras{
+
+    .back{
+        height: 78px;
+        background-color: #f5ad3f;
+    }
+   .header-tiras{
+    display: flex;
+    align-items: center;
+
+    .tiras-logo{
+        align-items: center;
+
+        @media screen and (max-width: 650px){
+            width: 70px;
+            height: 20px;
+            object-fit: contain;
+          }
+    }
+
+    .search{
+          width: 731px;
+          height: 45px;
+          position: relative;
+          margin-left: 133px;
+          margin-right: 68px;
+          margin-top: 17px;
+
+          
+            .fa-solid{
+              @media screen and (max-width: 650px){
+                font-size: 10px;
+              }
+            }
+            
+          
+          
+
+          @media screen and (max-width: 1370px){
+              width: 300px;  
+            }
+            @media screen and (max-width: 1030px){
+                width: 125px;  
+                margin-left: 30px;
+              }
+              @media screen and (max-width: 500px){
+                margin-left: 60px;
+              }
+          input {
+            outline: none;
+            width: 100%;
+            height: 39px;
+            border: 1px solid #D2D2D2;
+            text-transform: uppercase;
+            padding-left: 25px;
+            box-sizing: border-box;
+            border-radius: 5px;           
+            font-size: 10px;
+            @media screen and (max-width: 680px){
+                display: none; 
+              }
+            
+          }
+          button {
+            position: absolute;
+            right: 21px;
+            bottom: 13px;
+            border: none;
+            outline: none;
+            background: transparent;
+            cursor: pointer;
+          }
+
+          img {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            @media screen and (max-width: 1030px){
+                margin-left: 300px;
+              }
+            
+          }
+    }
+
+    .personal{
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+
+        .preferince{
+            display: flex;
+            align-items: center;
+
+            
+        }
+
+        .like{
+           margin-left: 47px;
+           margin-right: 48px; 
+           position: relative;
+           
+           
+
+           @media screen and (max-width: 650px){
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+           margin-right: 20px; 
+          }
+
+          @media screen and (max-width: 415px){
+            width: 15px;
+            height: 15px;
+            margin-left: 7px;
+           margin-right: 3px; 
+          }
+        }
+
+        .point-prod {
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          background-color: #ffffff;
+          margin-bottom: 20px;
+          margin-left: 95px;
+          border-radius: 50%;
+
+          @media screen and (max-width: 650px){
+            width: 11px;
+            height: 11px; 
+            margin-left: 55px;
+          }
+          
+          p{
+            margin-left: 5px;
+            
+          }
+        }
+        .point-prod-shop{
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          background-color: #ffffff;
+          margin-bottom: 20px;
+          margin-left: 175px;
+          border-radius: 50%;
+
+          @media screen and (max-width: 650px){
+            width: 11px;
+            height: 11px; 
+            margin-left: 95px;
+          }
+
+          p{
+            margin-left: 2px;
+            margin-bottom: 15px;
+          }
+        }
+
+        .call-center{
+            @media screen and (max-width: 650px){
+                width: 20px;
+                height: 20px;
+              }
+              @media screen and (max-width: 415px){
+                width: 15px;
+                height: 15px;
+               
+              }
+        }
+
+        .shop{
+            @media screen and (max-width: 650px){
+                width: 20px;
+                height: 20px;
+              }
+
+              @media screen and (max-width: 415px){
+                width: 15px;
+                height: 15px;
+                margin-left: 10px;
+               margin-right: 10px; 
+              }
+        }
+
+        
+
+        .sing-in{
+            display: flex;
+            align-items: center;
+            
+
+            p{
+                font-size: 9px;
+                width: 40px;
+                height: 12px;
+                margin-top: 15px;
+                text-transform: uppercase;
+                color: white;
+
+                @media screen and (max-width: 415px){
+                  font-size: 6px;
+                }
+            }
+
+            img{
+                width: 27px;
+                height: 27px;
+                margin-left: 49px;
+                margin-right: 15px;
+
+                @media screen and (max-width: 650px){
+                    width: 20px;
+                    height: 20px;
+                  }
+                  @media screen and (max-width: 415px){
+                    width: 15px;
+                    height: 15px;
+                    margin-left: 10px;
+                   margin-right: 10px; 
+                  }
+            }
+        }
+    }
+
+   
+   }
+
+   .nav-bar{
+
+    height: 68px;
+    margin-top: 16px;
+    margin-top: 48px;
+
+    .all-element{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .socialization{
+            display: flex;
+            
+            .site{
+                margin-left: 20px;
+            }
+        }
+       }
+
+    .elements-nav{
+        align-items: center;
+        display: flex;
+        
+        
+        li{
+            float: left;
+            display: block;
+            margin-right: 26px;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000;
+        }
+        
+    }
+   }
+}
+

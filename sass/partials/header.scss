@@ -1,0 +1,76 @@
+.header{
+
+    border-bottom: 1px solid 
+    rgba(255, 255, 255, 0.15);
+    
+
+    
+   .fa{
+    transform: scaleX(-1);
+    margin-right: 8px;
+    padding-top: 2px;
+   }
+        
+        
+        .general{
+            display: flex;
+            padding-top: 11px;
+            color: #ffffff;
+            justify-content: space-between;
+            align-items: center;
+
+            @media screen and (max-width: 767px){
+           
+        display: none;
+      }
+      
+
+            p{
+                color:#ffffff;
+                font-size: 12px;
+            }
+
+            .contact{
+                display: flex;
+
+                .call{
+                    margin-left: 11px;
+                    margin-right: 56px;
+
+                }
+            }
+
+            a{       
+                font-size: 10px;
+                color: #fff;
+            }
+
+            .language{
+                display: flex;
+                align-items: center;
+
+                img{
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 6px;
+                }
+            }
+        }
+
+        color: rgba(255, 255, 255, 0.15);
+    
+}
+
+hr{
+    margin: 0 !important;
+}
+
+.background{
+    background-color: #f5ad3f;
+}
+
+select{
+    background-color: #f5ad3f;
+    outline: none;
+    border: none;
+}
