@@ -18,6 +18,11 @@
 
 $(".chat-mes").click(function (event) {
   $(".pixel").show()
+})
+
+
+$(".social-1").click(function (event) {
+  $(".social-element").show()
   
 
 })
